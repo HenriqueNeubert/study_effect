@@ -1,0 +1,21 @@
+.gradiente01{
+      height: 200px;
+      background: linear-gradient(
+            to bottom right,
+            #6889ff, #C668FF
+      )
+}
+.gradiente02{
+      height: 200px;
+      background: linear-gradient(
+            to right,
+            #e89090, #d03939
+      )
+}
+.gradiente03{
+      height: 200px;
+      background: linear-gradient(
+            to bottom,
+            #92c6d1, #35cccf
+      )
+}
