@@ -19,6 +19,18 @@
                               <div class="pulsar01">1</div>
                               <div class="pulsar02">2</div>
                               <div class="pulsar03">3</div>
+                              <div class="pulsar04">
+                                    4
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                                    <div class="bar"></div>
+                              </div>
+                              <div class="pulsar05">
+                                    5
+                                    <div class="bar barA"></div>
+                                    <div class="bar barB"></div>
+                                    <div class="bar barC"></div>
+                              </div>
                         </div>
                   </div>
             </section>
