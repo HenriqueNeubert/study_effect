@@ -1,0 +1,264 @@
+/*LOAD-01*/
+
+.load-01{
+      align-self: center;
+      gap: 5px;
+      display: flex;
+      justify-content: center;  
+}
+
+.load-01 .block-item{
+      align-self: center;
+      gap: 5px;
+      display: flex;
+      justify-content: center;  
+}
+
+.load-01 span{
+      color: aqua;     
+}
+
+.load-01 .item{
+      width:  5px;
+      height:  5px;
+      border-radius: 50%;
+      background-color: aqua;
+      animation: load01 .4s alternate infinite;
+}
+
+.load-01 .item:nth-child(2){
+      animation-delay: .1s;
+}
+
+.load-01 .item:nth-child(3){
+      animation-delay: .2s;
+}
+
+
+
+@keyframes load01 {
+      from{
+            transform: translateY(0);
+      }      
+      to{
+            transform: translateY(-5px);
+      }
+}
+
+/*LOAD-01*/
+
+/*LOAD-02*/
+
+.load-02{
+      align-self: center;
+      gap: 5px;
+      display: flex;
+      justify-content: center;  
+      flex-direction: column;
+}
+
+.load-02 .block-item{
+      align-self: center;
+      gap: 7px;
+      display: flex;
+      justify-content: center;  
+}
+
+.load-02 span{
+      color: aqua;     
+}
+
+.load-02 .item{
+      width:  30px;
+      height:  30px;
+      border-radius: 50%;
+      background-color: aqua;
+      animation: load02 .3s alternate infinite;
+}
+
+.load-02 .item:nth-child(2){
+      animation-delay: .1s;
+}
+
+.load-02 .item:nth-child(3){
+      animation-delay: .2s;
+}
+
+
+
+@keyframes load02 {
+      from{
+            transform: translateY(0);
+            transform: scaleX(1.2);            
+      }      
+      to{
+            transform: scaleX(1);            
+            transform: translateY(-25px);
+      }
+}
+
+/*LOAD-02*/
+
+/*LOAD-03*/
+
+.load-03 {
+      display: flex;
+      justify-content: center;
+}
+
+.load-03 .item{
+      width: 32px;
+      height: 72px;
+      position: relative;
+      border: 2px solid #fff;
+
+      transform: perspective(140px) rotateX(-45deg);
+      animation: load03 1.5s linear infinite alternate;
+}
+
+@keyframes load03 {
+      0%{
+            box-shadow: 0 0 #ed3b65 inset;
+      }
+      100%{
+            box-shadow: 0 -70px #ed3b65 inset;
+      }
+}
+
+/*LOAD-03*/
+
+/*LOAD-04*/
+
+.load-04 {
+      display: flex;
+      justify-content: center;
+}
+
+.load-04 .item{
+      width: 70px;
+      height: 30px;
+      position: relative;
+      border: 2px solid #fff;
+      animation: load04 1.5s linear infinite alternate;
+}
+
+.load-04 .item::before{
+      position: absolute;
+      inset: 0;
+      content: 'Load...';
+      
+      color: #fff;
+      text-align: center;
+      line-height: 25px;
+}
+
+@keyframes load04 {
+      0%{
+            box-shadow: 0 0 #ed3b65 inset;
+      }
+      100%{
+            box-shadow: -70px 0 #ed3b65 inset;
+      }
+}
+
+/*LOAD-04*/
+
+/*LOAD-05*/
+
+.load-05 {
+      display: flex;
+      justify-content: center;
+}
+
+.load-05 .item{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      border: 4px solid #00ffff;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+
+      animation: load05 1.2s infinite;
+}
+
+@keyframes load05 {
+      0%{
+            transform: rotate(0deg);
+      }
+      50%{
+            transform: rotate(180deg) scale(1.2);
+      }
+      100%{
+            transform: rotate(360deg);
+      }
+}
+
+/*LOAD-05*/
+
+/*LOAD-06*/
+
+.load-06 {
+      display: flex;
+      justify-content: center;
+}
+
+.load-06 .item{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      border: 4px solid #ed3b65;
+      border-top: 4px solid #cbfcf8;
+      border-left: 4px solid #cbfcf8;
+      border-bottom: 4px solid #cbfcf8;
+
+      animation: load06 1.2s infinite;
+}
+
+@keyframes load06 {
+      0%{
+            transform: rotate(0deg);
+      }
+      50%{
+            transform: rotate(180deg);
+      }
+      100%{
+            transform: rotate(360deg);
+      }
+}
+
+/*LOAD-06*/
+
+/*LOAD-07*/
+
+.load-07 {
+      display: flex;
+      justify-content: center;
+}
+
+.load-07 .item{
+      width: 50px;
+      height: 50px;
+
+      border-radius: 50%;
+      border: 4px solid #ed3b65;
+      border-top: 4px solid #cbfcf8;
+      border-left: 4px solid #cbfcf8;
+      border-bottom: 4px solid #cbfcf8;
+
+      animation: load07 .8s linear infinite;
+}
+
+@keyframes load07 {
+      0%{
+            transform: rotate(0);
+      }
+      100%{
+            transform: rotate(360deg);
+      }
+}
+
+/*LOAD-07*/
+
+

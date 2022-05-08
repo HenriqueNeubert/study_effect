@@ -15,7 +15,7 @@
       height: 6px;
       width: 48px;
       border-radius: 5px;
-}
+}     
 
 .active .line:nth-child(1){
       transform: translateY(12px);
