@@ -3,4 +3,4 @@
   npm init
 
   ##NA PASTA ARCHIVE
-  sass --watch custom.scss:compiled/custom.css
+  sass --watch custom.scss:compiled/custom.css 
